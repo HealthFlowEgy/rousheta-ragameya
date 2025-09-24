@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- HealthFlow Brand Colors -->
+    <color name="healthflow_primary">#1e3a8a</color>
+    <color name="healthflow_secondary">#d97706</color>
+    <color name="healthflow_accent">#059669</color>
+    <color name="healthflow_light">#f8fafc</color>
+    <color name="healthflow_dark">#1f2937</color>
+    
+    <!-- Material Design 3 Colors -->
+    <color name="md_theme_light_primary">#1e3a8a</color>
+    <color name="md_theme_light_onPrimary">#ffffff</color>
+    <color name="md_theme_light_primaryContainer">#dde3ff</color>
+    <color name="md_theme_light_onPrimaryContainer">#001947</color>
+    <color name="md_theme_light_secondary">#d97706</color>
+    <color name="md_theme_light_onSecondary">#ffffff</color>
+    <color name="md_theme_light_secondaryContainer">#ffecc6</color>
+    <color name="md_theme_light_onSecondaryContainer">#2a1800</color>
+    <color name="md_theme_light_tertiary">#059669</color>
+    <color name="md_theme_light_onTertiary">#ffffff</color>
+    <color name="md_theme_light_tertiaryContainer">#a7f3d0</color>
+    <color name="md_theme_light_onTertiaryContainer">#002114</color>
+    <color name="md_theme_light_error">#dc2626</color>
+    <color name="md_theme_light_errorContainer">#fecaca</color>
+    <color name="md_theme_light_onError">#ffffff</color>
+    <color name="md_theme_light_onErrorContainer">#7f1d1d</color>
+    <color name="md_theme_light_background">#fefefe</color>
+    <color name="md_theme_light_onBackground">#1a1c1e</color>
+    <color name="md_theme_light_surface">#fefefe</color>
+    <color name="md_theme_light_onSurface">#1a1c1e</color>
+    <color name="md_theme_light_surfaceVariant">#e1e2ec</color>
+    <color name="md_theme_light_onSurfaceVariant">#44474f</color>
+    <color name="md_theme_light_outline">#74777f</color>
+    <color name="md_theme_light_inverseOnSurface">#f1f0f4</color>
+    <color name="md_theme_light_inverseSurface">#2f3033</color>
+    <color name="md_theme_light_inversePrimary">#b6c4ff</color>
+    <color name="md_theme_light_shadow">#000000</color>
+    <color name="md_theme_light_surfaceTint">#1e3a8a</color>
+    <color name="md_theme_light_outlineVariant">#c4c6d0</color>
+    <color name="md_theme_light_scrim">#000000</color>
+
+    <!-- Dark Theme Colors -->
+    <color name="md_theme_dark_primary">#b6c4ff</color>
+    <color name="md_theme_dark_onPrimary">#002c72</color>
+    <color name="md_theme_dark_primaryContainer">#00419e</color>
+    <color name="md_theme_dark_onPrimaryContainer">#dde3ff</color>
+    <color name="md_theme_dark_secondary">#f59e0b</color>
+    <color name="md_theme_dark_onSecondary">#442b00</color>
+    <color name="md_theme_dark_secondaryContainer">#633f00</color>
+    <color name="md_theme_dark_onSecondaryContainer">#ffecc6</color>
+    <color name="md_theme_dark_tertiary">#6ee7b7</color>
+    <color name="md_theme_dark_onTertiary">#003828</color>
+    <color name="md_theme_dark_tertiaryContainer">#00513c</color>
+    <color name="md_theme_dark_onTertiaryContainer">#a7f3d0</color>
+    <color name="md_theme_dark_error">#f87171</color>
+    <color name="md_theme_dark_errorContainer">#dc2626</color>
+    <color name="md_theme_dark_onError">#7f1d1d</color>
+    <color name="md_theme_dark_onErrorContainer">#fecaca</color>
+    <color name="md_theme_dark_background">#111318</color>
+    <color name="md_theme_dark_onBackground">#e3e2e6</color>
+    <color name="md_theme_dark_surface">#111318</color>
+    <color name="md_theme_dark_onSurface">#e3e2e6</color>
+    <color name="md_theme_dark_surfaceVariant">#44474f</color>
+    <color name="md_theme_dark_onSurfaceVariant">#c4c6d0</color>
+    <color name="md_theme_dark_outline">#8e9099</color>
+    <color name="md_theme_dark_inverseOnSurface">#111318</color>
+    <color name="md_theme_dark_inverseSurface">#e3e2e6</color>
+    <color name="md_theme_dark_inversePrimary">#1e3a8a</color>
+    <color name="md_theme_dark_shadow">#000000</color>
+    <color name="md_theme_dark_surfaceTint">#b6c4ff</color>
+    <color name="md_theme_dark_outlineVariant">#44474f</color>
+    <color name="md_theme_dark_scrim">#000000</color>
+    
+    <!-- Status Colors -->
+    <color name="success">#059669</color>
+    <color name="warning">#d97706</color>
+    <color name="info">#0ea5e9</color>
+    <color name="danger">#dc2626</color>
+    
+    <!-- Prescription Status Colors -->
+    <color name="status_issued">#3b82f6</color>
+    <color name="status_ready">#059669</color>
+    <color name="status_dispensed">#6b7280</color>
+    <color name="status_expired">#dc2626</color>
+    
+    <!-- Common Colors -->
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="divider">#e5e7eb</color>
+    <color name="card_background">#ffffff</color>
+    <color name="text_primary">#1f2937</color>
+    <color name="text_secondary">#6b7280</color>
+    <color name="text_hint">#9ca3af</color>
+</resources>

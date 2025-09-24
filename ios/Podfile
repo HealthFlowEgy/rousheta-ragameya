@@ -1,0 +1,55 @@
+# Podfile
+platform :ios, '15.0'
+use_frameworks!
+
+target 'RoushetaRagameya' do
+  # UI
+  pod 'SwiftUI'
+  
+  # Networking
+  pod 'Alamofire', '~> 5.8'
+  pod 'SwiftyJSON', '~> 5.0'
+  
+  # Image Loading
+  pod 'Kingfisher', '~> 7.0'
+  
+  # QR Code
+  pod 'CodeScanner'
+  
+  # Maps
+  pod 'MapKit'
+  
+  # Core Data
+  pod 'CoreData'
+  
+  # Keychain
+  pod 'KeychainSwift', '~> 20.0'
+  
+  # Localization
+  pod 'SwiftGen', '~> 6.6'
+  
+  # Firebase (for push notifications)
+  pod 'Firebase/Analytics'
+  pod 'Firebase/Messaging'
+  pod 'Firebase/Crashlytics'
+  
+  target 'RoushetaRagameyaTests' do
+    inherit! :search_paths
+    pod 'Quick', '~> 6.0'
+    pod 'Nimble', '~> 11.0'
+    pod 'OHHTTPStubs/Swift', '~> 9.1'
+  end
+
+  target 'RoushetaRagameyaUITests' do
+    inherit! :search_paths
+  end
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '15.0'
+      config.build_settings['CODE_SIGN_IDENTITY'] = ''
+    end
+  end
+end

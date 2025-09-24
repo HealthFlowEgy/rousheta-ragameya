@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">روشتة رقمية</string>
+    <string name="app_name_english">Rousheta Ragameya</string>
+    
+    <!-- Authentication -->
+    <string name="welcome">مرحباً بك</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="register">إنشاء حساب جديد</string>
+    <string name="national_id">الرقم القومي</string>
+    <string name="phone_number">رقم الهاتف</string>
+    <string name="password">كلمة المرور</string>
+    <string name="confirm_password">تأكيد كلمة المرور</string>
+    <string name="first_name">الاسم الأول</string>
+    <string name="last_name">اسم العائلة</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="date_of_birth">تاريخ الميلاد</string>
+    <string name="gender">الجنس</string>
+    <string name="male">ذكر</string>
+    <string name="female">أنثى</string>
+    
+    <!-- Navigation -->
+    <string name="home">الرئيسية</string>
+    <string name="prescriptions">الروشتات</string>
+    <string name="scan_qr">مسح QR</string>
+    <string name="pharmacies">الصيدليات</string>
+    <string name="profile">الملف الشخصي</string>
+    
+    <!-- Prescriptions -->
+    <string name="my_prescriptions">روشتاتي</string>
+    <string name="prescription_details">تفاصيل الروشتة</string>
+    <string name="medications">الأدوية</string>
+    <string name="doctor">الطبيب</string>
+    <string name="date_issued">تاريخ الإصدار</string>
+    <string name="status">الحالة</string>
+    <string name="issued">صادرة</string>
+    <string name="ready">جاهزة</string>
+    <string name="dispensed">تم صرفها</string>
+    <string name="expired">منتهية الصلاحية</string>
+    
+    <!-- QR Scanner -->
+    <string name="scan_prescription">مسح روشتة</string>
+    <string name="point_camera_at_qr">وجه الكاميرا نحو رمز QR</string>
+    <string name="qr_scan_success">تم مسح الروشتة بنجاح</string>
+    <string name="qr_scan_error">خطأ في مسح الروشتة</string>
+    
+    <!-- Pharmacies -->
+    <string name="nearby_pharmacies">الصيدليات القريبة</string>
+    <string name="pharmacy_details">تفاصيل الصيدلية</string>
+    <string name="address">العنوان</string>
+    <string name="working_hours">ساعات العمل</string>
+    <string name="phone">الهاتف</string>
+    <string name="get_directions">الحصول على الاتجاهات</string>
+    
+    <!-- Profile -->
+    <string name="my_profile">ملفي الشخصي</string>
+    <string name="edit_profile">تعديل الملف الشخصي</string>
+    <string name="language">اللغة</string>
+    <string name="arabic">العربية</string>
+    <string name="english">English</string>
+    <string name="notifications">الإشعارات</string>
+    <string name="logout">تسجيل الخروج</string>
+    
+    <!-- Common -->
+    <string name="save">حفظ</string>
+    <string name="cancel">إلغاء</string>
+    <string name="ok">موافق</string>
+    <string name="error">خطأ</string>
+    <string name="loading">جاري التحميل…</string>
+    <string name="retry">إعادة المحاولة</string>
+    <string name="no_data">لا توجد بيانات</string>
+    <string name="search">بحث</string>
+    
+    <!-- Validation -->
+    <string name="field_required">هذا الحقل مطلوب</string>
+    <string name="invalid_national_id">الرقم القومي غير صحيح</string>
+    <string name="invalid_phone_number">رقم الهاتف غير صحيح</string>
+    <string name="invalid_email">البريد الإلكتروني غير صحيح</string>
+    <string name="password_too_short">كلمة المرور قصيرة جداً</string>
+    <string name="passwords_dont_match">كلمات المرور غير متطابقة</string>
+    
+    <!-- Permissions -->
+    <string name="camera_permission_required">إذن الكاميرا مطلوب لمسح رموز QR</string>
+    <string name="location_permission_required">إذن الموقع مطلوب للعثور على الصيدليات القريبة</string>
+    <string name="grant_permission">منح الإذن</string>
+    
+    <!-- Network -->
+    <string name="no_internet_connection">لا يوجد اتصال بالإنترنت</string>
+    <string name="server_error">خطأ في الخادم</string>
+    <string name="request_timeout">انتهت مهلة الطلب</string>
+    
+    <!-- SMS -->
+    <string name="verification_code_sent">تم إرسال رمز التحقق</string>
+    <string name="enter_verification_code">أدخل رمز التحقق</string>
+    <string name="verification_code">رمز التحقق</string>
+    <string name="resend_code">إعادة إرسال الرمز</string>
+    
+    <!-- API Keys (for development) -->
+    <string name="google_maps_key">your_google_maps_api_key_here</string>
+    <string name="backup_api_key">your_backup_api_key_here</string>
+</resources>
